@@ -7,7 +7,7 @@
 
 function remove_prefix() {
   result=$1
-  for remove_prefix in ${REMOVE_PREFIXES[*]}; do
+  for remove_prefix in ${GOTO_REMOVE_PREFIXES[*]}; do
     result=${result#$remove_prefix}
   done
   echo $result
