@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Specify parent directories where the gogo scripts fetches data from
-GOTO_PARENT_DIRECTORIES=(~/Projects)
+#GOTO_PARENT_DIRECTORIES=(~/Projects)
 #Specify prefixes to exclude from names
-REMOVE_PREFIXES=("zeos-" "zalando-")
+#GOTO_REMOVE_PREFIXES=("zeos-" "zalando-")
 
 function remove_prefix() {
   result=$1
